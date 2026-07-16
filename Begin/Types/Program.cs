@@ -5,8 +5,8 @@ namespace Types {
     static void Main(string[] args) {
             // Uncomment these calls as instructed in the exercise guide
 
-            TestRefType();
-            TestValueType();
+            //TestRefType();
+            //TestValueType();
 
             TestIntArray();
             TestAccountArray();
@@ -77,7 +77,7 @@ namespace Types {
     private static void TestIntArray() {
       int[] ages = { 13, 15, 17 };
       ProcessAges(ages);
-      Console.WriteLine(ages[1]); // 15 or 25
+      Console.WriteLine(ages[1]); // 15 or 25 - it is 25 
     }
 
     private static void ProcessAges(int[] ages) {
